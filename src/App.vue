@@ -1,11 +1,11 @@
 <template>
-  <div class="md-layout md-alignment-top-center todo-app">
-    <div class="md-layout-item md-size-50 md-small-size-90">
-      <h1 class="md-display-3">Todo Application</h1>
+  <div class="md-layout md-alignment-center todo-app">
+    <div class="md-layout-item md-size-30 md-small-size-60">
+      <h1 class="md-display-3">To Do List</h1>
       <md-field>
         <md-input
           type="text"
-          placeholder="Add todo"
+          placeholder="Add what to do"
           v-model="currentTodo"
           @keydown.enter="addTodo()"
           @click="clearEdit()"
